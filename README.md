@@ -1,6 +1,6 @@
 # MinuteAnimations
 
-[![CI Status](http://img.shields.io/travis/Luca Gobbo/MinuteAnimations.svg?style=flat)](https://travis-ci.org/LucaGobbo/MinuteAnimations)
+[![CI Status](http://img.shields.io/travis/LucaGobbo/MinuteAnimations.svg?style=flat)](https://travis-ci.org/LucaGobbo/MinuteAnimations)
 [![Version](https://img.shields.io/cocoapods/v/MinuteAnimations.svg?style=flat)](http://cocoapods.org/pods/MinuteAnimations)
 [![License](https://img.shields.io/cocoapods/l/MinuteAnimations.svg?style=flat)](http://cocoapods.org/pods/MinuteAnimations)
 [![Platform](https://img.shields.io/cocoapods/p/MinuteAnimations.svg?style=flat)](http://cocoapods.org/pods/MinuteAnimations)
