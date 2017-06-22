@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MinuteAnimations'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MinuteAnimations.'
+  s.version          = '0.0.1'
+  s.summary          = 'Simple Animation sugar'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Simplfy animations with some sugar. This is a small library i personally use for my projets at my work.
                        DESC
 
-  s.homepage         = 'https://github.com/Luca Gobbo/MinuteAnimations'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/LucaGobbo/MinuteAnimations'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Luca Gobbo' => 'luca@dharmamedia.nl' }
-  s.source           = { :git => 'https://github.com/Luca Gobbo/MinuteAnimations.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Luca Gobbo' => 'luca@me.com' }
+  s.source           = { :git => 'https://github.com/LucaGobbo/MinuteAnimations.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/lucagobbo'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '9.0'
   s.source_files = 'MinuteAnimations/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MinuteAnimations' => ['MinuteAnimations/Assets/*.png']
-  # }
+  s.frameworks = 'UIKit'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

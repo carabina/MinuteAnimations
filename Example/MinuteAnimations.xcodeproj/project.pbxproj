@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015FFB50AA8822E12B796755 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		015FFB50AA8822E12B796755 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2043AAEA7288646E1F8A188E /* Pods-MinuteAnimations_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinuteAnimations_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MinuteAnimations_Example/Pods-MinuteAnimations_Example.release.xcconfig"; sourceTree = "<group>"; };
 		44D72017901D46C32A2155F0 /* Pods-MinuteAnimations_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinuteAnimations_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MinuteAnimations_Tests/Pods-MinuteAnimations_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MinuteAnimations_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinuteAnimations_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* MinuteAnimations_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinuteAnimations_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B792E86DF0409C74F38869A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7B792E86DF0409C74F38869A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		901545890604BABE3BEAC9F8 /* Pods-MinuteAnimations_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinuteAnimations_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MinuteAnimations_Example/Pods-MinuteAnimations_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A6086FBD002D394A9FF50367 /* MinuteAnimations.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MinuteAnimations.podspec; path = ../MinuteAnimations.podspec; sourceTree = "<group>"; };
+		A6086FBD002D394A9FF50367 /* MinuteAnimations.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MinuteAnimations.podspec; path = ../MinuteAnimations.podspec; sourceTree = "<group>"; };
 		C03F5D988968287E244BB736 /* Pods-MinuteAnimations_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinuteAnimations_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MinuteAnimations_Tests/Pods-MinuteAnimations_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB5F5C3025AC3208B3659870 /* Pods_MinuteAnimations_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinuteAnimations_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B2ADC361B3D6C43F7EAE1D /* Pods_MinuteAnimations_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinuteAnimations_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -443,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

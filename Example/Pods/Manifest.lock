@@ -1,0 +1,16 @@
+PODS:
+  - MinuteAnimations (0.1.0)
+
+DEPENDENCIES:
+  - MinuteAnimations (from `../`)
+
+EXTERNAL SOURCES:
+  MinuteAnimations:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MinuteAnimations: e5cd9b24b2aee90f545531701c96965666dd5290
+
+PODFILE CHECKSUM: 96917eb9c44704678e030a04294954216e1e22ae
+
+COCOAPODS: 1.2.1

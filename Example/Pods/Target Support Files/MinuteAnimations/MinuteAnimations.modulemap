@@ -1,0 +1,6 @@
+framework module MinuteAnimations {
+  umbrella header "MinuteAnimations-umbrella.h"
+
+  export *
+  module * { export * }
+}
