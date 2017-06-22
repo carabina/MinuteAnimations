@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MinuteAnimations_Example' do
+  pod 'MinuteAnimations', :path => '../'
+
+  target 'MinuteAnimations_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
